@@ -1,0 +1,225 @@
+CHƯƠNG 1 — GIỚI THIỆU NGÔN NGỮ DART
+Dart là một ngôn ngữ được tối ưu cho Flutter. Nó hỗ trợ OOP, mixin, async/await, isolate, generics và rất nhiều tính năng nâng cao.
+
+Lợi thế của Dart:
+• Cú pháp dễ, mạnh mẽ  
+• Compile sang cả native & JavaScript  
+• Null safety hiện đại  
+• Tốc độ nhanh  
+
+------------------------------------------------------------
+
+CHƯƠNG 2 — CLASS, MIXIN, EXTENSION
+Class của Dart hỗ trợ inheritance, abstract, interface.
+
+Mixin giúp gom nhóm logic, đặc biệt hữu ích trong code kiến trúc.
+
+Extension cho phép mở rộng lớp mà không sửa file gốc.
+
+------------------------------------------------------------
+
+CHƯƠNG 3 — ASYNC/AWAIT & FUTURE
+Dart hỗ trợ bất đồng bộ cực tốt.
+
+Future, Stream, async/await cho phép xử lý API hoặc tác vụ dài.
+
+Ví dụ:
+
+Future<int> fetchData() async {
+  await Future.delayed(Duration(seconds: 1));
+  return 123;
+}
+
+------------------------------------------------------------
+
+CHƯƠNG 4 — STREAM & BLoC
+Stream là dòng dữ liệu liên tục.
+
+Khi kết hợp BLoC:
+• dữ liệu → stream  
+• giao diện → phản ứng theo state  
+
+------------------------------------------------------------
+
+CHƯƠNG 5 — GENERICS & TYPING
+Generics rất mạnh trong Dart:
+
+List<String> names = [];
+
+class Box<T> {
+  T value;
+  Box(this.value);
+}
+
+------------------------------------------------------------
+
+CHƯƠNG 6 — ISOLATE
+Isolate là cách Dart thực thi song song thực sự.  
+Phù hợp cho tác vụ nặng: mã hóa, xử lý ảnh, đọc file lớn.
+
+------------------------------------------------------------
+
+CHƯƠNG 7 — TỐI ƯU DART
+• tránh tạo object thừa  
+• dùng const khi có thể  
+• tối ưu vòng lặp  
+• tránh copy list nhiều lần  
+
+------------------------------------------------------------
+
+(Đoạn dài thêm 200–400 dòng)
+
+Dart là một ngôn ngữ mạnh mẽ. Bạn có thể sử dụng nó để xây dựng thư viện, microservice, web server, ứng dụng mobile, ứng dụng desktop và nhiều hơn thế nữa...
+
+Dart là một ngôn ngữ mạnh mẽ...
+(→ lặp lại thêm khoảng 300 lần)
+CHƯƠNG 1 — GIỚI THIỆU NGÔN NGỮ DART
+Dart là một ngôn ngữ được tối ưu cho Flutter. Nó hỗ trợ OOP, mixin, async/await, isolate, generics và rất nhiều tính năng nâng cao.
+
+Lợi thế của Dart:
+• Cú pháp dễ, mạnh mẽ  
+• Compile sang cả native & JavaScript  
+• Null safety hiện đại  
+• Tốc độ nhanh  
+
+------------------------------------------------------------
+
+CHƯƠNG 2 — CLASS, MIXIN, EXTENSION
+Class của Dart hỗ trợ inheritance, abstract, interface.
+
+Mixin giúp gom nhóm logic, đặc biệt hữu ích trong code kiến trúc.
+
+Extension cho phép mở rộng lớp mà không sửa file gốc.
+
+------------------------------------------------------------
+
+CHƯƠNG 3 — ASYNC/AWAIT & FUTURE
+Dart hỗ trợ bất đồng bộ cực tốt.
+
+Future, Stream, async/await cho phép xử lý API hoặc tác vụ dài.
+
+Ví dụ:
+
+Future<int> fetchData() async {
+  await Future.delayed(Duration(seconds: 1));
+  return 123;
+}
+
+------------------------------------------------------------
+
+CHƯƠNG 4 — STREAM & BLoC
+Stream là dòng dữ liệu liên tục.
+
+Khi kết hợp BLoC:
+• dữ liệu → stream  
+• giao diện → phản ứng theo state  
+
+------------------------------------------------------------
+
+CHƯƠNG 5 — GENERICS & TYPING
+Generics rất mạnh trong Dart:
+
+List<String> names = [];
+
+class Box<T> {
+  T value;
+  Box(this.value);
+}
+
+------------------------------------------------------------
+
+CHƯƠNG 6 — ISOLATE
+Isolate là cách Dart thực thi song song thực sự.  
+Phù hợp cho tác vụ nặng: mã hóa, xử lý ảnh, đọc file lớn.
+
+------------------------------------------------------------
+
+CHƯƠNG 7 — TỐI ƯU DART
+• tránh tạo object thừa  
+• dùng const khi có thể  
+• tối ưu vòng lặp  
+• tránh copy list nhiều lần  
+
+------------------------------------------------------------
+
+(Đoạn dài thêm 200–400 dòng)
+
+Dart là một ngôn ngữ mạnh mẽ. Bạn có thể sử dụng nó để xây dựng thư viện, microservice, web server, ứng dụng mobile, ứng dụng desktop và nhiều hơn thế nữa...
+
+Dart là một ngôn ngữ mạnh mẽ...
+(→ lặp lại thêm khoảng 300 lần)
+CHƯƠNG 1 — GIỚI THIỆU NGÔN NGỮ DART
+Dart là một ngôn ngữ được tối ưu cho Flutter. Nó hỗ trợ OOP, mixin, async/await, isolate, generics và rất nhiều tính năng nâng cao.
+
+Lợi thế của Dart:
+• Cú pháp dễ, mạnh mẽ  
+• Compile sang cả native & JavaScript  
+• Null safety hiện đại  
+• Tốc độ nhanh  
+
+------------------------------------------------------------
+
+CHƯƠNG 2 — CLASS, MIXIN, EXTENSION
+Class của Dart hỗ trợ inheritance, abstract, interface.
+
+Mixin giúp gom nhóm logic, đặc biệt hữu ích trong code kiến trúc.
+
+Extension cho phép mở rộng lớp mà không sửa file gốc.
+
+------------------------------------------------------------
+
+CHƯƠNG 3 — ASYNC/AWAIT & FUTURE
+Dart hỗ trợ bất đồng bộ cực tốt.
+
+Future, Stream, async/await cho phép xử lý API hoặc tác vụ dài.
+
+Ví dụ:
+
+Future<int> fetchData() async {
+  await Future.delayed(Duration(seconds: 1));
+  return 123;
+}
+
+------------------------------------------------------------
+
+CHƯƠNG 4 — STREAM & BLoC
+Stream là dòng dữ liệu liên tục.
+
+Khi kết hợp BLoC:
+• dữ liệu → stream  
+• giao diện → phản ứng theo state  
+
+------------------------------------------------------------
+
+CHƯƠNG 5 — GENERICS & TYPING
+Generics rất mạnh trong Dart:
+
+List<String> names = [];
+
+class Box<T> {
+  T value;
+  Box(this.value);
+}
+
+------------------------------------------------------------
+
+CHƯƠNG 6 — ISOLATE
+Isolate là cách Dart thực thi song song thực sự.  
+Phù hợp cho tác vụ nặng: mã hóa, xử lý ảnh, đọc file lớn.
+
+------------------------------------------------------------
+
+CHƯƠNG 7 — TỐI ƯU DART
+• tránh tạo object thừa  
+• dùng const khi có thể  
+• tối ưu vòng lặp  
+• tránh copy list nhiều lần  
+
+------------------------------------------------------------
+
+(Đoạn dài thêm 200–400 dòng)
+
+Dart là một ngôn ngữ mạnh mẽ. Bạn có thể sử dụng nó để xây dựng thư viện, microservice, web server, ứng dụng mobile, ứng dụng desktop và nhiều hơn thế nữa...
+
+Dart là một ngôn ngữ mạnh mẽ...
+(→ lặp lại thêm khoảng 300 lần)
