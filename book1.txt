@@ -1,0 +1,119 @@
+CHƯƠNG 1 — GIỚI THIỆU VỀ FLUTTER
+Flutter là một framework UI đa nền tảng do Google phát triển, cho phép lập trình viên xây dựng ứng dụng cho Android, iOS, Web, Desktop chỉ bằng một codebase duy nhất. Điểm mạnh lớn nhất của Flutter là tốc độ phát triển nhanh, hiệu suất cao và khả năng tùy biến giao diện tuyệt đối.
+
+Trong chương này, bạn sẽ được tìm hiểu những khái niệm nền tảng quan trọng nhất: Widget, Hot Reload, cấu trúc dự án, cách Flutter render giao diện và các thành phần cốt lõi của framework.
+
+Flutter sử dụng Dart — một ngôn ngữ hiện đại, dễ học. Với cú pháp tương tự C#, Java, JavaScript, Dart thân thiện với cả người mới lẫn lập trình viên chuyên nghiệp.
+
+------------------------------------------------------------
+
+CHƯƠNG 2 — KIẾN TRÚC CỦA ỨNG DỤNG FLUTTER
+Một ứng dụng Flutter chia thành hai nhóm widget chính:
+
+1. StatelessWidget — giao diện tĩnh
+2. StatefulWidget — giao diện có trạng thái, thay đổi theo thời gian
+
+Khi ứng dụng hoạt động, Flutter chuyển toàn bộ cây Widget sang cây Element, và cuối cùng là RenderObject để hiển thị trên màn hình. Quá trình này rất tối ưu nhờ engine đồ họa Skia.
+
+Trong Flutter, mọi thứ đều là widget: Text, Row, Column, Icon, Container, thậm chí cả chính App.
+
+------------------------------------------------------------
+
+CHƯƠNG 3 — BẮT ĐẦU VỚI WIDGET CƠ BẢN
+Trong chương này, bạn sẽ học:
+
+• Text, RichText  
+• Row – Column  
+• Container, Padding, Margin  
+• Icon, Image  
+• ElevatedButton – TextButton – OutlinedButton  
+• Scaffold – AppBar – Drawer – BottomNavigationBar  
+
+Ví dụ: một ứng dụng đếm số (Counter App).  
+Dù đơn giản, nhưng đây là bài học nền tảng cực kỳ quan trọng.
+
+------------------------------------------------------------
+
+CHƯƠNG 4 — STATEFUL WIDGET & QUẢN LÝ TRẠNG THÁI
+Có nhiều cách quản lý state trong Flutter:
+
+• setState()  
+• InheritedWidget  
+• Provider  
+• Riverpod  
+• BLoC  
+• MobX  
+• Redux  
+
+Trong đó Provider và Riverpod là 2 phương pháp phổ biến nhất vì dễ dùng và hiệu quả.
+
+------------------------------------------------------------
+
+CHƯƠNG 5 — LAYOUT & RESPONSIVE
+Bạn sẽ học cách thiết kế giao diện đa kích thước:
+
+• MediaQuery  
+• LayoutBuilder  
+• Expanded – Flexible  
+• AspectRatio – FittedBox  
+
+Responsive rất quan trọng khi triển khai cho Android, iOS, Web và Desktop.
+
+------------------------------------------------------------
+
+CHƯƠNG 6 — DANH SÁCH & CUỘN
+Flutter cung cấp ListView, GridView, CustomScrollView, SliverAppBar…
+
+Sliver giúp tạo hiệu ứng giao diện đẹp mắt như:
+
+• thanh AppBar co giãn  
+• danh sách vô hạn  
+• hiệu ứng cuộn mượt mà  
+
+------------------------------------------------------------
+
+CHƯƠNG 7 — TÌM HIỂU VỀ NETWORKING
+Bạn sẽ học cách gọi API bằng http hoặc Dio:
+
+• GET, POST  
+• parse JSON  
+• xử lý lỗi mạng  
+• loading state  
+
+------------------------------------------------------------
+
+CHƯƠNG 8 — LƯU TRỮ DỮ LIỆU
+Các kỹ thuật phổ biến:
+
+• SharedPreferences  
+• SQLite (sqflite)  
+• Hive  
+• Moor/Drift  
+• Secure Storage  
+
+------------------------------------------------------------
+
+CHƯƠNG 9 — TỐI ƯU HOÁ HIỆU NĂNG
+Flutter chạy nhanh, nhưng muốn nhanh hơn nữa phải tối ưu:
+
+• Giảm rebuild bằng const  
+• Tách widget nhỏ  
+• Dùng ListView.builder thay vì ListView  
+• Tránh tính toán nặng trong build()  
+
+------------------------------------------------------------
+
+CHƯƠNG 10 — KẾT LUẬN
+Bạn đã học một loạt kiến thức nền tảng về Flutter. Hãy tiếp tục thực hành, thử xây dựng ứng dụng thực tế: ghi chú, todo app, app bán hàng, app đọc sách…
+
+------------------------------------------------------------
+
+(Đoạn dưới đây cố ý lặp nhiều lần cho dài 20–40 trang khi phân trang)
+
+Flutter là một framework tuyệt vời giúp bạn xây dựng ứng dụng đa nền tảng nhanh chóng. Khi kết hợp với Provider hoặc Riverpod, tốc độ phát triển tăng gấp đôi. Bạn hoàn toàn có thể xây dựng ứng dụng chuyên nghiệp chỉ với một codebase.  
+Flutter giúp bạn phát triển từ Android, iOS đến Web, Desktop với hiệu suất cao...
+
+Flutter là một framework tuyệt vời giúp bạn xây dựng ứng dụng đa nền tảng nhanh chóng. Khi kết hợp với Provider hoặc Riverpod, tốc độ phát triển tăng gấp đôi...
+
+Flutter là một framework tuyệt vời giúp bạn xây dựng ứng dụng đa nền tảng nhanh chóng...
+(→ LẶP lại dòng này thêm 200–300 lần cho đủ dài)
