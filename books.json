@@ -1,0 +1,18 @@
+[
+  {
+    "id": "book1",
+    "title": "Flutter Cơ Bản",
+    "author": "Nguyễn Văn A",
+    "description": "Học Flutter từ zero đến expert.",
+    "assetPath": "https://raw.githubusercontent.com/kietletuan002/example-books-api/main/book1.txt",
+    "coverUrl": "https://picsum.photos/200/300"
+  },
+  {
+    "id": "book2",
+    "title": "Dart Nâng Cao",
+    "author": "Trần Văn B",
+    "description": "Toàn bộ kiến thức nâng cao về Dart.",
+    "assetPath": "https://raw.githubusercontent.com/kietletuan002/example-books-api/main/book2.txt",
+    "coverUrl": "https://picsum.photos/200/301"
+  }
+]
