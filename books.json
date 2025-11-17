@@ -4,7 +4,7 @@
     "title": "Flutter Cơ Bản",
     "author": "Nguyễn Văn A",
     "description": "Học Flutter từ zero đến expert.",
-    "assetPath": "https://raw.githubusercontent.com/kietletuan002/jsonsach/main/book1.txt",
+    "assetPath": "https://raw.githubusercontent.com/TuanKiet0711/jsonsach/refs/heads/main/book1.txt",
     "coverUrl": "https://picsum.photos/200/300"
   },
   {
@@ -12,7 +12,7 @@
     "title": "Dart Nâng Cao",
     "author": "Trần Văn B",
     "description": "Toàn bộ kiến thức nâng cao về Dart.",
-    "assetPath": "https://raw.githubusercontent.com/kietletuan002/jsonsach/main/book2.txt",
+    "assetPath": "https://raw.githubusercontent.com/TuanKiet0711/jsonsach/refs/heads/main/book2.txt",
     "coverUrl": "https://picsum.photos/200/301"
   }
 ]
